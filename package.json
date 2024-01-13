@@ -26,7 +26,7 @@
     "build": "npm run build --workspaces --if-present",
     "start": "npm run start --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
-    "clean": "cross-env-shell \"rm -rf ./node_modules ./package-lock.json\""
+    "clean": "cross-env-shell \"rm -rf ./client/node_modules ./server/node_modules ./node_modules ./package-lock.json\""
   },
   "keywords": [],
   "author": "Wild Code School",
